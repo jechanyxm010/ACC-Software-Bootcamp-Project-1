@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project 4</title>
+</head>
+<body>
+
+<h1>Hotel Room Service</h1>
+<h3>Welcome to our hotel!  We hope you enjoy your stay.</h3>
+
+	<p>We value you as our guest!  Use this online form to have a hot, delicious breakfast delivered to your room.  Please fill your this form before midnight so that we can make proper accomodations.  All meals are served before 10AM.  Tipping is encouraged.</p>
+
+	<form action="/action_page.php">
+  		<fieldset>
+    		<legend>Hotel Guest Contact Info</legend>
+   			First name: <input type="text" name="firstname"><br>
+    		Last name: <input type="text" name="lastname"><br>
+    		Room number: <input type="number"><br>
+ 		</fieldset>
+	</form>
+
+	<p>What time would you like to be served? 
+	<select>
+		<option value="6am">6am</option>
+		<option value="7am">7am</option>
+		<option value="8am">8am</option>
+		<option value="9am">9am</option>
+	</select>	
+	<p>Please choose your entree:</p>
+
+
+	<select size="5">
+	<option>Waffles and chicken</option>
+	<option>Pancakes and syrup</option>
+	<option>Hash browns</option>
+	<option>Bacon & Eggs</option>
+	<option>Boring ol' toast</option>
+	</select>
+	</textarea>
+
+
+	<p>Would you like extra butter?</p>
+	<form>
+  		<input type="radio" name="answer" value="Yes" checked> Yes
+ 		<input type="radio" name="answer" value="No"> No
+ 		<input type="radio" name="answer" value="Surprise me"> Surprise me <br>
+ 		<input type="submit" value="Submit">
+	</form>
+
+
+</body>
+</html>
